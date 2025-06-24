@@ -109,6 +109,9 @@ python geo_mapper.py
 ```
 Creates sentiment_map.html — an interactive Folium map of geocoded headlines, colored by sentiment and disinfo flag
 
+![Diagram](images/heat_zone_map.png)
+
+
 ### 7. Run the Dashboard
 
 ```bash
@@ -126,12 +129,18 @@ Includes:
 - Bias filters
 - Location tagging (from geo_mapper)
 
+![Diagram](images/dashboard.png)
+![Diagram](images/dashboard_2.png)
+![Diagram](images/dashboard_bias.png)
+
 ### 8. Visualize Sentiment
 
 ```bash
 python visualize_sentiment.py
 ```
 Plots sentiment distribution by source
+
+![Diagram](images/sentiment_by_source.png)
 
 ## Notes
 - All processed outputs saved in /outputs/
